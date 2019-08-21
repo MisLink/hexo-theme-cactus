@@ -39,7 +39,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
   sort_updated: false
 
 # Customize the archive view.
@@ -115,10 +115,10 @@ rss: ""
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
-  ? fb_app_id
-  ? fb_admins
-  ? twitter_id
-  ? google_plus
+  fb_app_id:
+  fb_admins:
+  twitter_id:
+  google_plus:
 
 ##############################################################################
 # Plugins
